@@ -2,6 +2,7 @@
     color:  #F3BD50;
    margin: 1rem 1rem 0.5rem 1rem;
    text-align: center;
+   /* font-size: 2.5rem; */
 
 }
 .titleRs{
@@ -169,3 +170,80 @@ margin: 0.5rem;
 display: flex;
 justify-content: center;
 }
+
+.myListContainer{
+    height: 60vh;
+    /* height: 55vh; */
+    overflow: scroll;
+}
+
+/* bottom */
+
+.contBottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* height: 20vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    overflow: scroll;
+}
+/* menu button list =================================================*/
+.button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .scrollable-wrapper {
+    overflow-x: scroll;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .button-list a {
+    margin: 0 10px;
+  
+  }
+  
+  .button-list a button {
+    /* width: 8rem; */
+    cursor: pointer;
+    margin: 0.4rem 0.2rem;
+  }
+  .button-list a button:focus{
+    background-color: #F3BD50;
+    border: 1px solid #F3BD50;
+    color: #333;
+    font-weight: bold;
+  }
+  .button-list a button.active {
+    background-color: #F3BD50;
+  }
+  
+  /* Media Query for responsiveness */
+  @media screen and (max-width: 768px) {
+    .button-list {
+      flex-wrap: nowrap;
+    }
+  
+    .scrollable-wrapper {
+      overflow-x: scroll;
+      justify-content: start;
+    }
+  
+    .button-list a {
+      margin: 5px;
+    }
+  }
+  
