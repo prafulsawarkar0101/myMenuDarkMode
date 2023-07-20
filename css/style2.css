@@ -185,7 +185,7 @@ justify-content: center;
     width: 100%;
     /* height: 20vh; */
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     /* border: 1px solid black; */
     overflow: scroll;
@@ -225,7 +225,13 @@ justify-content: center;
     background-color: #F3BD50;
     border: 1px solid #F3BD50;
     color: #333;
-    font-weight: bold;
+    
+  }
+  .button-list a button:hover{
+    background-color: #F3BD50;
+    border: 1px solid #F3BD50;
+    color: #333;
+    
   }
   .button-list a button.active {
     background-color: #F3BD50;
