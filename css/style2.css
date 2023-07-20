@@ -1,3 +1,18 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  
+}
+body{
+  background-color: #121212;
+}
+
 .myHeadingG{
     color:  #F3BD50;
    margin: 1rem 1rem 0.5rem 1rem;
@@ -175,6 +190,7 @@ justify-content: center;
     height: 60vh;
     /* height: 55vh; */
     overflow: scroll;
+    
 }
 
 /* bottom */
@@ -223,18 +239,20 @@ justify-content: center;
   }
   .button-list a button:focus{
     background-color: #F3BD50;
-    border: 1px solid #F3BD50;
+    
     color: #333;
+    
     
   }
   .button-list a button:hover{
     background-color: #F3BD50;
-    border: 1px solid #F3BD50;
+    
     color: #333;
+    
     
   }
   .button-list a button.active {
-    background-color: #F3BD50;
+    background-color: #ffaa00;
   }
   
   /* Media Query for responsiveness */
